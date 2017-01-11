@@ -35,7 +35,7 @@ html
                             div
                                 span.pull-right
                                     button.btn.btn-default.btn-xs: span.glyphicon.glyphicon-save
-                                    button.btn.btn-default.btn-xs: span.glyphicon.glyphicon-pencil
+                                    button.btn.btn-default.btn-xs(@click="editandoTarea = index"): span.glyphicon.glyphicon-pencil
                                     button.btn.btn-default.btn-xs: span.glyphicon.glyphicon-ok
                                     button.btn.btn-default.btn-xs: span.glyphicon.glyphicon-repeat
                                     button.btn.btn-default.btn-xs(@click="removeTarea(index)"): span.glyphicon.glyphicon-remove
