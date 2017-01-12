@@ -6,3 +6,9 @@
     text-transform: capitalize;
   }
 }
+
+.completado {
+  text-decoration: line-through;
+  font-style: italic;
+  color: gray;
+}

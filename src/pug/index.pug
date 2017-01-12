@@ -19,26 +19,22 @@ html
             h2 TODO app
             .row
                 .col-xs-6
-                    form.form(@submit.prevent="addTarea(nuevaTarea)")
+                    form.form(@submit.prevent="addTodo")
                         .form-group
                             .input-group
-                                input.form-control(type="text" v-model="nuevaTarea")
-                                .input-group-btn
-                                    button.btn.btn-default(type="submit")
-                                        span.glyphicon.glyphicon.glyphicon-plus
+                                input.form-control(type="text"
+                                v-model="addToList")
+                                span.input-group-btn
+                                    button.btn.btn-default.glyphicon.glyphicon-plus
 
                     ul.list-group
-                        li.list-group-item.clearfix.tareas(v-for="(tarea, index) in tareas")
-                            p.lead {{ tarea.titulo }} - {{ index }}
+                        li.list-group-item.clearfix(v-for="(tarea, index) in tareas")
+                            h3 {{ tarea.titulo }}
                             .form-group
                                 input.form-control(type="text" v-model="tarea.titulo")
-                            div
-                                span.pull-right
-                                    button.btn.btn-default.btn-xs: span.glyphicon.glyphicon-save
-                                    button.btn.btn-default.btn-xs(@click="editandoTarea = index"): span.glyphicon.glyphicon-pencil
-                                    button.btn.btn-default.btn-xs: span.glyphicon.glyphicon-ok
-                                    button.btn.btn-default.btn-xs: span.glyphicon.glyphicon-repeat
-                                    button.btn.btn-default.btn-xs(@click="removeTarea(index)"): span.glyphicon.glyphicon-remove
+                            div.pull-right
+                                button.btn.btn-default.btn-xs(): span.glyphicon.glyphicon-pencil
+
                     pre {{ $data }}
         script(src="../node_modules/vue/dist/vue.js")
         script(src="js/main.js")

@@ -19,28 +19,23 @@
       <h2>TODO app</h2>
       <div class="row">
         <div class="col-xs-6">
-          <form class="form" @submit.prevent="addTarea(nuevaTarea)">
+          <form class="form" @submit.prevent="addTodo">
             <div class="form-group">
               <div class="input-group">
-                <input class="form-control" type="text" v-model="nuevaTarea">
-                <div class="input-group-btn">
-                  <button class="btn btn-default" type="submit"><span class="glyphicon glyphicon glyphicon-plus"></span></button>
-                </div>
+                <input class="form-control" type="text" v-model="addToList"><span class="input-group-btn">
+                  <button class="btn btn-default glyphicon glyphicon-plus"></button></span>
               </div>
             </div>
           </form>
           <ul class="list-group">
-            <li class="list-group-item clearfix tareas" v-for="(tarea, index) in tareas">
-              <p class="lead">{{ tarea.titulo }} - {{ index }}</p>
+            <li class="list-group-item clearfix" v-for="(tarea, index) in tareas">
+              <h3>{{ tarea.titulo }}</h3>
               <div class="form-group">
                 <input class="form-control" type="text" v-model="tarea.titulo">
               </div>
-              <div><span class="pull-right">
-                  <button class="btn btn-default btn-xs"><span class="glyphicon glyphicon-save"></span></button>
-                  <button class="btn btn-default btn-xs" @click="editandoTarea = index"><span class="glyphicon glyphicon-pencil"></span></button>
-                  <button class="btn btn-default btn-xs"><span class="glyphicon glyphicon-ok"></span></button>
-                  <button class="btn btn-default btn-xs"><span class="glyphicon glyphicon-repeat"></span></button>
-                  <button class="btn btn-default btn-xs" @click="removeTarea(index)"><span class="glyphicon glyphicon-remove"></span></button></span></div>
+              <div class="pull-right">
+                <button class="btn btn-default btn-xs"><span class="glyphicon glyphicon-pencil"></span></button>
+              </div>
             </li>
           </ul>
           <pre>{{ $data }}</pre>

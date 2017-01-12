@@ -2,9 +2,10 @@
 
 var app = new Vue({
    el: '.container',
+
     data: {
-        nuevaTarea: null,
-        editandoTarea: null,
+       addToList: '',
+        fieldIndex: '',
       tareas: [
           {titulo: "Ir al Gym", completado: false},
           {titulo: "Cocinar Sopa", completado: false},
@@ -13,20 +14,9 @@ var app = new Vue({
     },
 
     methods: {
-       addTarea: function(tarea) {
-            this.tareas.push(
-                {titulo: tarea, completado: false}
-            );
-            this.nuevaTarea = '';
-
-       },
-        
-        removeTarea: function (index) {
-            this.tareas.splice(index, 1);
-        },
-        
-        editTarea: function () {
-            console.info(tarea);
+        addTodo: function() {
+            this.tareas.push({titulo: this.addToList, completado: false})
+            this.addToList = '';
         }
     }
 });
