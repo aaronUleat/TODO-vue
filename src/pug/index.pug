@@ -29,11 +29,16 @@ html
 
                     ul.list-group
                         li.list-group-item.clearfix(v-for="(tarea, index) in tareas")
-                            h3 {{ tarea.titulo }}
+                            h3.strike(:class="{complete: tarea.completado}") {{ tarea.titulo }}
                             .form-group
-                                input.form-control(type="text" v-model="tarea.titulo")
+                                input.form-control(type="text" v-model="tarea.titulo" v-show="fieldIndex === index" @blur="fieldIndex = null")
                             div.pull-right
-                                button.btn.btn-default.btn-xs(): span.glyphicon.glyphicon-pencil
+                                button.btn.btn-default.btn-xs(v-show="fieldIndex === index"
+                                @click="fieldIndex = null"): span.glyphicon.glyphicon-save
+                                button.btn.btn-default.btn-xs(@click="fieldIndex = index"
+                                v-show="!tarea.completado"): span.glyphicon.glyphicon-pencil
+                                button.btn.btn-default.btn-xs(@click="tarea.completado = true"): span.glyphicon.glyphicon-check
+                                button.btn.btn-default.btn-xs(@click="tarea.completado = false"): span.glyphicon.glyphicon-repeat
 
                     pre {{ $data }}
         script(src="../node_modules/vue/dist/vue.js")

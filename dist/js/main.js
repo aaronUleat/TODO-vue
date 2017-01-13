@@ -14,5 +14,6 @@ var app = new Vue({
             this.tareas.push({ titulo: this.addToList, completado: false });
             this.addToList = '';
         }
+
     }
 });

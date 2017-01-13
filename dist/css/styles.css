@@ -5817,7 +5817,7 @@ button.close {
 .tareas p {
   text-transform: capitalize; }
 
-.completado {
+.complete {
   text-decoration: line-through;
   font-style: italic;
   color: gray; }
