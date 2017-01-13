@@ -13,6 +13,10 @@ var app = new Vue({
         addTodo: function addTodo() {
             this.tareas.push({ titulo: this.addToList, completado: false });
             this.addToList = '';
+        },
+
+        removeTask: function removeTask(index) {
+            this.tareas.splice(index, 1);
         }
 
     }

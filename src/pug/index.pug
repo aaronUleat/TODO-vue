@@ -39,6 +39,7 @@ html
                                 v-show="!tarea.completado"): span.glyphicon.glyphicon-pencil
                                 button.btn.btn-default.btn-xs(@click="tarea.completado = true"): span.glyphicon.glyphicon-check
                                 button.btn.btn-default.btn-xs(@click="tarea.completado = false"): span.glyphicon.glyphicon-repeat
+                                button.btn.btn-default.btn-xs(@click="removeTask(index)"): span.glyphicon.glyphicon-remove
 
                     pre {{ $data }}
         script(src="../node_modules/vue/dist/vue.js")

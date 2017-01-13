@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34eebcaf-62de-412b-9298-e34d90305501" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/styles.css" afterPath="$PROJECT_DIR$/dist/css/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/js/main.js" afterPath="$PROJECT_DIR$/dist/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/es6/main.js" afterPath="$PROJECT_DIR$/src/es6/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pug/index.pug" afterPath="$PROJECT_DIR$/src/pug/index.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/styles.scss" afterPath="$PROJECT_DIR$/src/scss/styles.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,8 +23,8 @@
       <file leaf-file-name="index.pug" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pug/index.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="36" column="90" lean-forward="true" selection-start-line="36" selection-start-column="90" selection-end-line="36" selection-end-column="90" />
+            <state relative-caret-position="570">
+              <caret line="44" column="53" lean-forward="true" selection-start-line="44" selection-start-column="53" selection-end-line="44" selection-end-column="53" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -51,8 +49,8 @@
         <option value="$PROJECT_DIR$/src/es6/codigos.js" />
         <option value="$PROJECT_DIR$/dist/js/main.js" />
         <option value="$PROJECT_DIR$/src/scss/styles.scss" />
-        <option value="$PROJECT_DIR$/src/es6/main.js" />
         <option value="$PROJECT_DIR$/src/pug/index.pug" />
+        <option value="$PROJECT_DIR$/src/es6/main.js" />
       </list>
     </option>
   </component>
@@ -269,12 +267,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1484154777058</updated>
-      <workItem from="1484154779589" duration="29350000" />
+      <workItem from="1484154779589" duration="30131000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29350000" />
+    <option name="totallyTimeSpent" value="30131000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-37" width="1920" height="1117" extended-state="6" />
@@ -1863,8 +1861,8 @@
         <state relative-caret-position="406">
           <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
           <folding>
-            <marker date="1484319250513" expanded="true" signature="21:2630" ph="..." />
-            <marker date="1484319250513" expanded="true" signature="239:805" ph="..." />
+            <marker date="1484320423994" expanded="true" signature="21:2770" ph="..." />
+            <marker date="1484320423994" expanded="true" signature="239:805" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1904,12 +1902,12 @@
         <state relative-caret-position="435">
           <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
           <folding>
-            <marker date="1484319051123" expanded="true" signature="33:461" ph="{&quot;el&quot;: '.container'...}" />
-            <marker date="1484319051123" expanded="true" signature="68:101" ph="{&quot;addToList&quot;: ''...}" />
-            <marker date="1484319051123" expanded="true" signature="92:101" ph="{...}" />
-            <marker date="1484319051123" expanded="true" signature="441:459" ph="{...}" />
-            <marker date="1484319051123" expanded="true" signature="441:452" ph="{...}" />
-            <marker date="1484319051123" expanded="true" signature="441:452" ph="{...}" />
+            <marker date="1484320624338" expanded="true" signature="33:564" ph="{&quot;el&quot;: '.container'...}" />
+            <marker date="1484320624338" expanded="true" signature="68:101" ph="{&quot;addToList&quot;: ''...}" />
+            <marker date="1484320624338" expanded="true" signature="92:101" ph="{...}" />
+            <marker date="1484320624338" expanded="true" signature="441:562" ph="{...}" />
+            <marker date="1484320624338" expanded="true" signature="441:555" ph="{...}" />
+            <marker date="1484320624338" expanded="true" signature="441:555" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1928,22 +1926,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/es6/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+        <state relative-caret-position="348">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
           <folding>
-            <marker date="1484319049657" expanded="true" signature="33:479" ph="{&quot;el&quot;: '.container'...}" />
-            <marker date="1484319049657" expanded="true" signature="67:306" ph="{&quot;addToList&quot;: ''...}" />
-            <marker date="1484319049657" expanded="true" signature="129:300" ph="[...]" />
-            <marker date="1484319049657" expanded="true" signature="322:477" ph="{...}" />
-            <marker date="1484319049657" expanded="true" signature="352:470" ph="{...}" />
+            <marker date="1484320622874" expanded="true" signature="33:572" ph="{&quot;el&quot;: '.container'...}" />
+            <marker date="1484320622874" expanded="true" signature="67:306" ph="{&quot;addToList&quot;: ''...}" />
+            <marker date="1484320622874" expanded="true" signature="129:300" ph="[...]" />
+            <marker date="1484320622874" expanded="true" signature="322:570" ph="{...}" />
+            <marker date="1484320622874" expanded="true" signature="352:470" ph="{...}" />
+            <marker date="1484320622874" expanded="true" signature="510:563" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pug/index.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="36" column="90" lean-forward="true" selection-start-line="36" selection-start-column="90" selection-end-line="36" selection-end-column="90" />
+        <state relative-caret-position="570">
+          <caret line="44" column="53" lean-forward="true" selection-start-line="44" selection-start-column="53" selection-end-line="44" selection-end-column="53" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
           </folding>

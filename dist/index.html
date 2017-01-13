@@ -38,6 +38,7 @@
                 <button class="btn btn-default btn-xs" @click="fieldIndex = index" v-show="!tarea.completado"><span class="glyphicon glyphicon-pencil"></span></button>
                 <button class="btn btn-default btn-xs" @click="tarea.completado = true"><span class="glyphicon glyphicon-check"></span></button>
                 <button class="btn btn-default btn-xs" @click="tarea.completado = false"><span class="glyphicon glyphicon-repeat"></span></button>
+                <button class="btn btn-default btn-xs" @click="removeTask(index)"><span class="glyphicon glyphicon-remove"></span></button>
               </div>
             </li>
           </ul>
